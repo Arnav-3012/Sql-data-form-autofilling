@@ -1,0 +1,24 @@
+# Local config with real DB credentials - never commit
+config.json
+CLAUDE.md
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+
+# Assets — logo and other local-only media
+assets/*
+!assets/.gitkeep
